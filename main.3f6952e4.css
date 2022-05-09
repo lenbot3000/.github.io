@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+html {
+
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+    color:black;
+    background-color: black;
+}
+
+body {
+    font-family: "AlteHaasGrotesk", HelveticaNeueLTW06-93BlkExtObl, Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 1.78;
+    color: white;
+    text-align: center;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+@font-face {
+    font-family: 'AlteHaasGrotesk';
+    src:  url("/assets/Fonts/altehaasgroteskregular-webfont.woff2") format('woff2'),
+    url('/assets/Fonts/altehaasgroteskregular-webfont.woff') format('woff');
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "AlteHaasGrotesk",sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+pre{
+    font-family: "AlteHaasGrotesk",sans-serif;
+    src:  url("/assets/Fonts/altehaasgroteskregular-webfont.woff2") format('woff2'),
+    url('/assets/Fonts/altehaasgroteskregular-webfont.woff') format('woff');
+    margin-top: 0px;
+    margin-bottom: -2vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.specialfont {
+    font-family: "AlteHaasGrotesk", sans-serif;
+    font-size: 3.5vw;
+    color: white;
+    padding-bottom: .2em;
+    padding-top: .2em;
+    padding-left: 0.05vw;
+}
+.header{
+    align-content: center;
+    display: inline-block;
+}
+.flowerlogo {
+    width: 7vw;
+    padding-top: 0.5vh;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 10vw auto auto 10vw ;
+    grid-template-rows: auto auto auto auto;
+
+}
+/*WELCOME*/
+.trin-title{
+    font-size: 0.6vw;
+
+}
+.welcome {
+    font-size: 4vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+/*DASHBOARD CSS*/
+.d-protector{
+    margin-bottom: 1vh;
+}
+.d-protector-2 {
+    margin-bottom: 1vh;
+}
+.dashboard-content-container {
+    grid-row: 1;
+    grid-column: 3;
+}
+.dashboard {
+    display: inline-block;
+    align-items: top;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 2vw;
+    text-align: center;
+    justify-content: center;
+}
+.dashboard-img {
+    margin-top: 4vh;
+    max-width: 45%;
+    display: inline-block;
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+    border: cornsilk;
+    border-style: solid;
+    border-width: thick;
+}
+.dashboard-content {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    grid-column: 3;
+    font-size: 1vw;
+    border: #00b3ff;
+    border-style: solid;
+    border-width: thick;
+}
+/*CREATE A RELEASE*/
+.dashboard-content-2 {
+    margin-bottom: 3vh;
+    grid-column: 3;
+    /*grid-row: 1;*/
+    font-size: 1vw;
+    border: mediumspringgreen;
+    border-style: solid;
+    border-width: thick;
+}
+/*PITCHING CSS*/
+.pp-protector {
+    margin: 1vh;
+}
+.pitching {
+    display: inline-block;
+    grid-column: 2;
+    font-size: 2vw;
+    text-align: center;
+    justify-content: center;
+}
+.pitching-img {
+    max-width: 40%;
+    display: inline-block;
+    grid-row: 2;
+    grid-column: 1;
+    text-align: center;
+    margin-top: 4vh;
+    border: cornsilk;
+    border-style: solid;
+    border-width: thick;
+}
+.pitching-header {
+    text-align: center;
+    margin-top: 1vh;
+}
+.pitching-content {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    grid-row: 2;
+    grid-column: 3;
+    font-size: 1vw;
+    text-align: left;
+    border: deeppink;
+    border-style: solid;
+    border-width: thick;
+}
+/*CLAIMING CSS*/
+.c-protector {
+    margin: 1vh;
+}
+.claim-title {
+    text-align: center;
+    margin-top: 0.8vh;
+}
+.claiming {
+    display: inline-block;
+    align-items: top;
+    grid-column: 2;
+    font-size: 2vw;
+    text-align: top;
+    justify-content: center;
+}
+.claiming-content {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    grid-column: 3;
+    font-size: 1vw;
+    text-align: left;
+    border: cornsilk;
+    border-style: solid;
+    border-width: thick;
+}
+.claiming-img {
+    max-width: 40%;
+    display: inline-block;
+    grid-row: 3;
+    grid-column: 1;
+    text-align: center;
+    margin-top: 4vh;
+    border: cornsilk;
+    border-style: solid;
+    border-width: thick;
+}
